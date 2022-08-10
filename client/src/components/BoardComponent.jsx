@@ -1,5 +1,5 @@
 import React from 'react';
-import HorseComponent from "./HorseComponent";
+import HorseWayComponent from "./HorseWayComponent";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchHorseData} from "../asyncActions/horseData";
 
@@ -14,7 +14,7 @@ const BoardComponent = () => {
 		<div className='my-8'>
 			<ul>
 				{horseData?.map((horse, index) => (
-					<HorseComponent
+					<HorseWayComponent
 						key={index}
 						horse={horse}
 						index={index}
