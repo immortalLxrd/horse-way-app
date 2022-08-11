@@ -5,7 +5,7 @@ const App = () => {
 
 	return (
 		<div className='container mx-auto px-4'>
-			<h1 className='text-center my-8 text-4xl font-medium'>Horse Betting</h1>
+			<h1 className='text-center my-8 text-4xl font-medium'>Horse Way</h1>
 			<BoardComponent/>
 		</div>
 	);
