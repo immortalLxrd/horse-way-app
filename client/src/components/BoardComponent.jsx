@@ -13,8 +13,8 @@ const BoardComponent = () => {
 	return (
 		<div className='my-8'>
 			<div className="flex justify-between mb-1">
-				<span className="text-base text-lg font-bold text-black-700">| Horse Name |</span>
-				<span className="text-base text-lg font-bold text-black-700">| Distance |</span>
+				<span className="text-base text-lg font-bold text-black-700">Horse Name</span>
+				<span className="text-base text-lg font-bold text-black-700">Distance</span>
 			</div>
 			<ul>
 				{horseData?.map((horse, index) => (

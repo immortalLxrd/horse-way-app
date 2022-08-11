@@ -19,7 +19,7 @@ const HorseWayComponent = ({horse, index}) => {
 					}
 					style={{width: `${horse.distance / 10}%`}}
 				>
-					<img className="w-8 h-8 ml-20 block" src={horseLogo} alt=""/>
+					<img className="w-8 ml-20 block" src={horseLogo} alt=""/>
 				</div>
 			</div>
 		</li>
